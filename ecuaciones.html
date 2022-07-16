@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/paginap.css">
+    <title>Ecuaciones</title>
+</head>
+<body>
+    <a href="index.html"><img src="./images/regresar.png" alt=""></a><br><br>
+    
+    <main class="container">
+        <section><h1>Calcula la ecuacion</h1>
+
+            <form action=""> 
+            <h1> x<sup>2</sup> + 6x + 5</h1>
+            <hr>
+            <label for="inputx">
+                Ingrese x <br>
+            </label> 
+            <input type="text" name="x" id="num"/>
+            <button type="button" value="calcular" onclick="resolve();"> 
+                 calcular ecuacion 
+            </button>
+            </form>
+        </section>
+
+
+<br><br>
+    <main class="container">
+        <section> 
+                       <form action="">
+                        <h1>ECUACIÓN DE SEGUNDO GRADO</h1>
+                       <label for="InputCuadrado"><h1>ax<sup>2</sup>+bx+c=0</h1></label>
+                       </form>
+                       <form name="datos">
+                        <input type="text" name="a" placeholder="Ingrese el siguiente valor de A" size="3">
+                        <input type="text" name="b" placeholder="Ingrese el siguiente valor de B" size="3">
+                        <input type="text" name="c" placeholder="Ingrese el siguiente valor de C">
+                        <input type="text" name="d" placeholder="Discriminante valor D" size="3">
+                        <input type="text" name="entradaA" placeholder="Resultado A">
+                        <input type="text" name="entradaB" placeholder="Resultado B">
+                        <button type="button" value="Resolver" onClick="res()">Calcula</button>
+                       </form>
+                      
+        </section>
+                        
+ 
+    <script src="./js/paginaprincipal.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<section id="padre">
+    <div id="encabezado">
+        <article class="contenido">
+            <h2>Ecuaciones Lineales</h2> <br>
+            <img src="imagenes/sistema2x2.png" alt=""><br><br>
+           
+        <form id="datos" name="datos">
+            <input type="text" placeholder="a" id="a" size="3"> x + <input type="text" placeholder="b" id="b" size="3"> y = <input type="text" placeholder="c" id="c" size="3"><br><br>
+            <input type="text" placeholder="d" id="d" size="3"> x + <input type="text" placeholder="e" id="e" size="3"> y = <input type="text" placeholder="f" id="f" size="3"><br><br>
+            <button type="button" onclick="res();">Solución</button> 
+            <button type="button" onclick="LIMP();">Limpiar</button> <br><br>
+                X= <input type="text" id="x" size="5">
+                Y= <input type="text" id="y" size="5">
+
+        </form>
+        </article>
+     </div>
+     <div id="encabezado">
+        <nav class="campo">
+            <h2>Área de un triángulo rectángulo</h2><br>
+            <img src="imagenes/descarga.png" id="segundoimg"><br><br>
+            <div class="rec">
+                <input type="number" id="base" placeholder="Base" >
+                <input type="number" id="altura" placeholder="Altura" ><br><br>
+                <button type="button" onclick="obtenerArea()">Calcular</button>
+                <button type="button" onclick="LIMP();">Limpiar</button>
+                
+            </div>
+                <div class="rec">
+                <nav>Área:<br>
+                    <span id="Result"></span>
+                </nav>
+            </div>
+            </nav>
+        </section>
+    
+    <script src="/java/java.js"></script>
+</body>
+</html>
